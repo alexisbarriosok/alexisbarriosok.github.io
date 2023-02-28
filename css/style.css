@@ -1,0 +1,197 @@
+
+body{
+	background: #8BE8BA; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.botonera li{
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.botonera li a{
+	color: black;
+
+}
+.botonera li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+header{
+	background: #45f69d;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.principal{
+	background: #9CCC82;
+	height: 120vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#perfil{
+	font-style: italic;
+}
+
+#nombre-usuario, #email-usuario, #domicilio, #telefono, #celular, #fechanac{
+	font-weight: bold;
+}
+
+#imagen-usuario{
+	padding-bottom: 30px;
+	height: 30vh;
+	border-radius: 10px;
+}
+
+.alineacion{
+	-ms-display: flex;
+	display: flex;
+	/* alineacion vertical */
+	align-items: center;
+	 /* alineacion horizontal */
+	justify-content: center;
+}
+
+h1, .academico h1, .experiencia h1, .contacto h1{
+	padding: 50px 0px 50px 0px;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.secundario{
+	background: #8BE8BA;
+	height: 120vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.academico{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.academico h2{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.academico h3{
+	font-size: 20px;
+}
+
+.academico progress{
+	width: 100%;
+	max-width: 250px;
+}
+
+.experiencia{
+	text-align: center;
+	height: 70vh;
+}
+
+.experiencia .images{
+	padding-top: 30px;
+}
+
+.experiencia h3{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.experiencia li{
+	font-size: 15px;
+	text-align: left;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+
+footer{
+	height: 10vh;
+}
+
+.col-xs-4{
+	text-align: center;
+}
+
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 12px;	
+}
+
+.principal{
+	height: 150vh;
+}
+
+h1, .academico h1, .experiencia h1, .contacto h1{
+	padding: 20px 0px 20px 0px;
+	font-size: 30px;
+}
+
+.academico{
+	height: 190vh;
+}
+
+.academico h2{
+	font-size: 25px;
+	padding: 15px 0px 20px 0px;
+}
+
+.academico h3{
+	font-size: 20px;
+}
+
+.experiencia {
+	height: 100vh;
+}
+.experiencia h3{
+	font-size: 15px;
+	text-align: center;
+}
+
+.experiencia p{
+	font-size: 13px;
+}
+.experiencia li{
+	font-size: 10px;
+	text-align: left;
+}
+
+}
